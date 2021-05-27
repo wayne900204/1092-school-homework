@@ -13,3 +13,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [0.0.2] - 2021-05-26
 ### Added
 - HW2(View)
+
+## [0.0.3] - 2021-05-17
+### Added
+- HW3(for loop practice)
