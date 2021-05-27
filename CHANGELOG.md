@@ -14,6 +14,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - HW2(View)
 
-## [0.0.3] - 2021-05-17
+## [0.0.3] - 2021-05-27
 ### Added
 - HW3(for loop practice)
+
+## [0.0.4] - 2021-05-27
+### Added
+- Water喝水量
+- HW3(View)
