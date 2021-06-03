@@ -7,5 +7,7 @@
   <ItemGroup>
     <Folder Include="Views\Test\" />
     <Folder Include="Views\Water\" />
+    <Folder Include="Views\User\" />
+    <Folder Include="ViewModels\" />
   </ItemGroup>
 </Project>
