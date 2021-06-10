@@ -9,5 +9,9 @@
     <Folder Include="Views\Water\" />
     <Folder Include="Views\User\" />
     <Folder Include="ViewModels\" />
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="MySql.Data" Version="8.0.25" />
   </ItemGroup>
 </Project>

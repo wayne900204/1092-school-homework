@@ -10,6 +10,7 @@ namespace web410828593.Controllers
 {
     public class UserController : Controller
     {
+        //https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-mvc-app/working-with-sql?view=aspnetcore-5.0&tabs=visual-studio-code
         // GET: /<controller>/
         public IActionResult SignUp()
         {
@@ -21,23 +22,14 @@ namespace web410828593.Controllers
 
         public IActionResult SignUp(SignUpData data)
         {
-            if (data.Name == null || data.Name=="")
-            {
-                data.NameMessage = "請輸入姓名";
-            }
-            if (data.Account == null || data.Account == "")
-            {
-                data.AccountMessage = "請輸入帳號";
-            }
-            if (data.Password == null || data.Password == "")
-            {
-                data.PasswordMessage = "請輸入密碼";
-            }
-            if (data.Name != ""&& data.Name != null &&
-                data.Password != "" && data.Password != null &&
-                data.Account != "" && data.Account != null) {
+            if (ModelState.IsValid) {
                 data.Message = "註冊成功";
             }
+            //if (data.Name != ""&& data.Name != null &&
+            //    data.Password != "" && data.Password != null &&
+            //    data.Account != "" && data.Account != null) {
+            //    data.Message = "註冊成功";
+            //}
             return View(data);
         }
     }
