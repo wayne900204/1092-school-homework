@@ -18,9 +18,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - HW3(for loop practice)
 
-## [0.0.4] - 2021-07-03
+## [0.0.4] - 2021-06-03
 ### Added
 - UserRegister
 
-- Water喝水量
-- HW3(View)
+## [0.0.5] - 2021-06-09
+### Added
+- User
+- Display 的方式
+
+## [0.0.6] - 2021-06-16
+
+- 資料庫
